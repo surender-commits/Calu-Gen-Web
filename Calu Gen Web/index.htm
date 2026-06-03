@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calu | Gen</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div id="body-box">
+
+        <div id="c-range-box">
+            <label for="c-range">Select Number Length</label>
+            <select id="c-range" name="c-range" onchange="rangeSet()">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+
+        <div id="screen-box">
+            <span id="first-number">11</span>
+            <span id="operator">+</span>
+            <span id="second-number">22</span>
+        </div>
+
+        <div id="btn-box">
+            <span id="ans-btn" class="hover-one" onclick="showAns()">Show Answer</span>
+        </div>
+
+        <div id="answer-box">
+            <h2 id="answer">__</h2>
+        </div>
+
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>

@@ -2,6 +2,12 @@
 
 A simple and lightweight web application for practicing mental math calculations. Calu Gen Web instantly generates calculation questions based on the selected difficulty level and allows users to reveal answers with a single click.
 
+
+## Screenshots
+
+<img src="https://github.com/surender-commits/Calu-Gen-Web/blob/main/Calu-Gen-Web.jpg"  width="auto" height="auto" >
+
+
 ## Features
 
 * Generate random calculation questions instantly
